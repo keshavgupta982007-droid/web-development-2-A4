@@ -1,0 +1,110 @@
+
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login card */
+.login-container {
+    background-color: white;
+    width: 380px;
+    padding: 40px;
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+.login-container h1 {
+    text-align: center;
+    color: #243b55;
+    margin-bottom: 10px;
+}
+
+/* Description */
+.login-container p {
+    text-align: center;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+/* Input groups */
+.input-group {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Input fields */
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Input focus effect */
+.input-group input:focus {
+    border-color: #4a6cf7;
+}
+
+/* Login button */
+button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+
+    background: linear-gradient(135deg, #4776e6, #8e54e9);
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+}
+
+/* Signup text */
+.signup-text {
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+/* Signup link */
+.signup-text a {
+    color: #4776e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
